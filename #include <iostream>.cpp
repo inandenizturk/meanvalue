@@ -6,7 +6,7 @@ int main()
     int n, i;
     float num[100], sum=0.0, average;
 
-    cout << "Enter the numbers of data: ";
+    cout << "Enter the numbers of data: "<<endl;
     cin >> n;
 
     while (n > 80 || n <= 0)
