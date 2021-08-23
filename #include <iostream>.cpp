@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n, i;
-    float num[100], sum=0.0, average;
+    float num[80], sum=0.0, average;
 
     cout << "Enter the numbers of data: "<<endl;
     cin >> n;
