@@ -12,7 +12,7 @@ int main()
     while (n > 80 || n <= 0)
     {
         cout << "Error! number should in range of (1 to 80)." << endl;
-        cout.precision(3);// 3 float gelebilecek noktadan sonra
+        cout.precision(3);
         cout << "Enter the number again: "<<endl;
         cin >> n;
     }
@@ -28,6 +28,5 @@ int main()
     cout << "Average = " << average<<endl;
 
     return 0;
-    //terminal içine cd komutu versiyonu ile kopyalıdığımızda direk enter number bölümü geliyor .oradan işleme devam edebiliyoruz
-    //terminale cd "/var/folders/nt/9lygbrks48z5yz5yv6zkps7h0000gn/T/" && ......erFile && "/var/folders/nt/9lygbrks48z5yz5yv6zkps7h0000gn/T/"ç....x5eRunnerFile
+    
 }
