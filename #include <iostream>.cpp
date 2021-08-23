@@ -29,5 +29,5 @@ int main()
 
     return 0;
     //terminal içine cd komutu versiyonu ile kopyalıdığımızda direk enter number bölümü geliyor .oradan işleme devam edebiliyoruz
-    //terminale cd "/var/folders/nt/9lygbrks48z5yz5yv6zkps7h0000gn/T/" && g++ tempCodeRunnerFile.cpp -o tempCodeRunnerFile && "/var/folders/nt/9lygbrks48z5yz5yv6zkps7h0000gn/T/"tempCodeRunnerFile
+    //terminale cd "/var/folders/nt/9lygbrks48z5yz5yv6zkps7h0000gn/T/" && ......erFile && "/var/folders/nt/9lygbrks48z5yz5yv6zkps7h0000gn/T/"tempCodeRunnerFile
 }
