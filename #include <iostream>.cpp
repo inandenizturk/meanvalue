@@ -13,19 +13,19 @@ int main()
     {
         cout << "Error! number should in range of (1 to 80)." << endl;
         cout.precision(3);// 3 float gelebilecek noktadan sonra
-        cout << "Enter the number again: ";
+        cout << "Enter the number again: "<<endl;
         cin >> n;
     }
 
     for(i = 0; i < n; ++i)
     {
-        cout << i + 1 << ". Enter number: ";
+        cout << i + 1 << ". Enter number: "<<endl;
         cin >> num[i];
         sum += num[i];
     }
 
     average = sum / n;
-    cout << "Average = " << average;
+    cout << "Average = " << average<<endl;
 
     return 0;
     //terminal içine cd komutu versiyonu ile kopyalıdığımızda direk enter number bölümü geliyor .oradan işleme devam edebiliyoruz
